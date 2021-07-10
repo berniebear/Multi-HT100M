@@ -8,15 +8,15 @@
 We provide the multilingual captions for the HowTo100M dataset in the following languages:
 Language | code | link
 -------- | ---- | ----
-Englsish | en | [link](http://vid-gpu6.inf.cs.cmu.edu:8000/multi_ht100m/json/how2_en.json)
-German | de | [link](http://vid-gpu6.inf.cs.cmu.edu:8000/multi_ht100m/json/how2_de.json)
-French | fr | [link](http://vid-gpu6.inf.cs.cmu.edu:8000/multi_ht100m/json/how2_fr.json)
-Czech | cs | [link](http://vid-gpu6.inf.cs.cmu.edu:8000/multi_ht100m/json/how2_cs.json)
-Spanish | sw | [link](http://vid-gpu6.inf.cs.cmu.edu:8000/multi_ht100m/json/how2_es.json)
-Russian |ru | [link](http://vid-gpu6.inf.cs.cmu.edu:8000/multi_ht100m/json/how2_ru.json)
-Vietnamese | vi | [link](http://vid-gpu6.inf.cs.cmu.edu:8000/multi_ht100m/json/how2_vi.json)
-Swahili | sw | [link](http://vid-gpu6.inf.cs.cmu.edu:8000/multi_ht100m/json/how2_sw.json)
-Chinese | zh | [link](http://vid-gpu6.inf.cs.cmu.edu:8000/multi_ht100m/json/how2_zh.json)
+Englsish | en | [link](http://stoned.is.cs.cmu.edu:8765/multi_ht100m/json/how2_en.json)
+German | de | [link](http://stoned.is.cs.cmu.edu:8765/multi_ht100m/json/how2_de.json)
+French | fr | [link](http://stoned.is.cs.cmu.edu:8765/multi_ht100m/json/how2_fr.json)
+Czech | cs | [link](http://stoned.is.cs.cmu.edu:8765/multi_ht100m/json/how2_cs.json)
+Spanish | sw | [link](http://stoned.is.cs.cmu.edu:8765/multi_ht100m/json/how2_es.json)
+Russian |ru | [link](http://stoned.is.cs.cmu.edu:8765/multi_ht100m/json/how2_ru.json)
+Vietnamese | vi | [link](http://stoned.is.cs.cmu.edu:8765/multi_ht100m/json/how2_vi.json)
+Swahili | sw | [link](http://stoned.is.cs.cmu.edu:8765/multi_ht100m/json/how2_sw.json)
+Chinese | zh | [link](http://stoned.is.cs.cmu.edu:8765/multi_ht100m/json/how2_zh.json)
 
 ## Format
 The how2_[lang].json file contains the captions for the HowTo100M videos. It can be read into a python dictionary where video_id as the key. Each value of the dictionary is another dictionary with the keys ['text', 'start', 'end']. The value of 'text' is a list of all the captions from the given video_id, and 'start' and 'end' are arrays correspondings to the start and end time timestamp of the captions (in second).
