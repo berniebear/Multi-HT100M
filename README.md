@@ -28,7 +28,7 @@ Please refer to [here](https://github.com/antoine77340/howto100m) for the list o
 The translated VTT in 9 languages for evaluation is available [here](https://drive.google.com/file/d/1RcFY8VHlJ6lrEqaCckn2umJeMweHFMmT/view?usp=sharing)
 
 ## Citation
-'''
+```
 @inproceedings{huang2021multilingual,
   title={Multilingual Multimodal Pre-training for Zero-Shot Cross-Lingual Transfer of Vision-Language Models},
   author={Huang, Po-Yao and Patrick, Mandela and Hu, Junjie and Neubig, Graham and Metze, Florian and Hauptmann, Alexander G},
@@ -37,7 +37,7 @@ The translated VTT in 9 languages for evaluation is available [here](https://dri
   year={2021},
   url = {https://arxiv.org/abs/2103.08849},
 }
-'''
+```
 
 ## Contact 
 Please feel free to contact Bernie Huang (poyaoh@cs.cmu.edu or berniebear@gmail.com) if you have any questions. Thanks for your interest!
